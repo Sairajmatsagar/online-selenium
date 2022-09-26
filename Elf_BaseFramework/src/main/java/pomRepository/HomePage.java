@@ -11,9 +11,22 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(linkText="Log out") private WebElement logoutButton;
+	@FindBy(linkText="Log out")
+	private WebElement logoutButton;
+	@FindBy(partialLinkText = "Computers")
+	 private WebElement computersModuleLink;
+	@FindBy(partialLinkText = "Books")
+	 private WebElement booksModuleLink;
+	@FindBy(xpath="//span[text()='Shopping cart']")
+	 private WebElement shoppingCartModuleLink;
 	
-	@FindBy(partialLinkText="Computers") private WebElement computersModuleLink;
+	public WebElement getShoppingCartModuleLink() {
+		return shoppingCartModuleLink;
+	}
+
+	public WebElement getBooksModuleLink() {
+		return booksModuleLink;
+	}
 
 	public WebElement getLogoutButton() {
 		return logoutButton;
@@ -23,8 +36,7 @@ public class HomePage {
 		return computersModuleLink;
 	}
 
-	// Business Logic or Action methods or Behavior
-	public void logout() {
+		public void logout() {
 		logoutButton.click();
 	}
 }

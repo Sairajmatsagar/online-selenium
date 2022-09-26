@@ -8,7 +8,8 @@ public class SampleTestCase extends Base_Class{
 	
 	@Test
 	public void sample() {
-		homePage.getComputersModuleLink().click();	
+		homePage.getComputersModuleLink().click();
+
 	}
 
 }

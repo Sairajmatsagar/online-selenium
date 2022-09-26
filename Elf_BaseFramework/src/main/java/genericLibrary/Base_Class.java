@@ -13,10 +13,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import genericLibrary.FrameworkConstants;
 import genericLibrary.PropertyFileReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pomRepository.ComputersPage;
 import pomRepository.HomePage;
 import pomRepository.LoginPage;
 
@@ -32,11 +34,10 @@ public class Base_Class implements FrameworkConstants {
 	public PropertyFileReader readFromPropertyFile;
 	public LoginPage loginPage;
 	public HomePage homePage;
-
+    public ComputersPage computerpage;
 	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void openTheBrowser(@Optional("chrome") String browserName) {
-
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -53,6 +54,7 @@ public class Base_Class implements FrameworkConstants {
 		driver.manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
 		explicitWait = new WebDriverWait(driver, EXPLICIT_TIMEOUT);
 	}
+	
 
 	@BeforeMethod(alwaysRun = true)
 	public void loginToApplication() {
