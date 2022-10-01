@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Accessories page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on tcpdone successfully]]>
+    </line>
+    <line>
+      <![CDATA[product is added successfully in cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktops page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on build computer done successfully]]>
+    </line>
+    <line>
+      <![CDATA[product is added successfully in cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktops page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[12 is selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktops page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Price: Low to High is selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Notebook page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on build computer done successfully]]>
+    </line>
+    <line>
+      <![CDATA[product is added successfully in cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Computer page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktops page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[List is selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105482" started-at="2022-09-24T09:47:37 IST" finished-at="2022-09-24T09:49:23 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_001_ToAddCheapComputerInCart.toAddCheapComputerInCart()[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="toAddCheapComputerInCart" class="computers.TC_001_ToAddCheapComputerInCart"/>
+        <method signature="TC_005ToAddNotebookInCart.ToAddNotebookInCart()[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="ToAddNotebookInCart" class="computers.TC_005ToAddNotebookInCart"/>
+        <method signature="TC_006_ToAddAccessriesInToCart.toAddAccessriesInToCart()[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="toAddAccessriesInToCart" class="computers.TC_006_ToAddAccessriesInToCart"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="105482" started-at="2022-09-24T09:47:37 IST" finished-at="2022-09-24T09:49:23 IST">
+      <class name="computers.TC_003_ToHandleDisplayAropDown">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_003_ToHandleDisplayAropDown@80503]" name="openTheBrowser" is-config="true" duration-ms="1375" started-at="2022-09-24T09:48:11 IST" finished-at="2022-09-24T09:48:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_003_ToHandleDisplayAropDown@80503]" name="loginToApplication" is-config="true" duration-ms="7045" started-at="2022-09-24T09:48:12 IST" finished-at="2022-09-24T09:48:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="ToHandleDisplayAropDown()[pri:0, instance:computers.TC_003_ToHandleDisplayAropDown@80503]" name="ToHandleDisplayAropDown" duration-ms="3078" started-at="2022-09-24T09:48:19 IST" finished-at="2022-09-24T09:48:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Desktops page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[12 is selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToHandleDisplayAropDown -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_003_ToHandleDisplayAropDown@80503]" name="logoutOfApplication" is-config="true" duration-ms="1192" started-at="2022-09-24T09:48:22 IST" finished-at="2022-09-24T09:48:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_003_ToHandleDisplayAropDown@80503]" name="closeTheBrowser" is-config="true" duration-ms="644" started-at="2022-09-24T09:48:23 IST" finished-at="2022-09-24T09:48:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_003_ToHandleDisplayAropDown -->
+      <class name="computers.TC_002_ToHandleDropdown">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_002_ToHandleDropdown@4b553d26]" name="openTheBrowser" is-config="true" duration-ms="1325" started-at="2022-09-24T09:48:24 IST" finished-at="2022-09-24T09:48:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_002_ToHandleDropdown@4b553d26]" name="loginToApplication" is-config="true" duration-ms="6937" started-at="2022-09-24T09:48:25 IST" finished-at="2022-09-24T09:48:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="ToHandleDropdown()[pri:0, instance:computers.TC_002_ToHandleDropdown@4b553d26]" name="ToHandleDropdown" duration-ms="2968" started-at="2022-09-24T09:48:32 IST" finished-at="2022-09-24T09:48:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Desktops page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Price: Low to High is selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToHandleDropdown -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_002_ToHandleDropdown@4b553d26]" name="logoutOfApplication" is-config="true" duration-ms="966" started-at="2022-09-24T09:48:35 IST" finished-at="2022-09-24T09:48:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_002_ToHandleDropdown@4b553d26]" name="closeTheBrowser" is-config="true" duration-ms="647" started-at="2022-09-24T09:48:36 IST" finished-at="2022-09-24T09:48:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_002_ToHandleDropdown -->
+      <class name="computers.TC_001_ToAddCheapComputerInCart">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="openTheBrowser" is-config="true" duration-ms="1350" started-at="2022-09-24T09:47:53 IST" finished-at="2022-09-24T09:47:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="loginToApplication" is-config="true" duration-ms="7644" started-at="2022-09-24T09:47:55 IST" finished-at="2022-09-24T09:48:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="toAddCheapComputerInCart()[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="toAddCheapComputerInCart" duration-ms="6357" started-at="2022-09-24T09:48:02 IST" finished-at="2022-09-24T09:48:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Desktops page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[click on build computer done successfully]]>
+            </line>
+            <line>
+              <![CDATA[product is added successfully in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toAddCheapComputerInCart -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="logoutOfApplication" is-config="true" duration-ms="1140" started-at="2022-09-24T09:48:09 IST" finished-at="2022-09-24T09:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_001_ToAddCheapComputerInCart@2f943d71]" name="closeTheBrowser" is-config="true" duration-ms="862" started-at="2022-09-24T09:48:10 IST" finished-at="2022-09-24T09:48:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_001_ToAddCheapComputerInCart -->
+      <class name="computers.TC_005ToAddNotebookInCart">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="openTheBrowser" is-config="true" duration-ms="1334" started-at="2022-09-24T09:48:37 IST" finished-at="2022-09-24T09:48:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="loginToApplication" is-config="true" duration-ms="9893" started-at="2022-09-24T09:48:38 IST" finished-at="2022-09-24T09:48:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="ToAddNotebookInCart()[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="ToAddNotebookInCart" duration-ms="5521" started-at="2022-09-24T09:48:48 IST" finished-at="2022-09-24T09:48:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Notebook page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[click on build computer done successfully]]>
+            </line>
+            <line>
+              <![CDATA[product is added successfully in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToAddNotebookInCart -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="logoutOfApplication" is-config="true" duration-ms="1798" started-at="2022-09-24T09:48:54 IST" finished-at="2022-09-24T09:48:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_005ToAddNotebookInCart@69a3d1d]" name="closeTheBrowser" is-config="true" duration-ms="661" started-at="2022-09-24T09:48:55 IST" finished-at="2022-09-24T09:48:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_005ToAddNotebookInCart -->
+      <class name="computers.TC_004_ToHandleViewAsDropdown">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_004_ToHandleViewAsDropdown@86be70a]" name="openTheBrowser" is-config="true" duration-ms="1356" started-at="2022-09-24T09:48:56 IST" finished-at="2022-09-24T09:48:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_004_ToHandleViewAsDropdown@86be70a]" name="loginToApplication" is-config="true" duration-ms="8082" started-at="2022-09-24T09:48:57 IST" finished-at="2022-09-24T09:49:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="ToHandleViewAsDropDown()[pri:0, instance:computers.TC_004_ToHandleViewAsDropdown@86be70a]" name="ToHandleViewAsDropDown" duration-ms="3302" started-at="2022-09-24T09:49:06 IST" finished-at="2022-09-24T09:49:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Desktops page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[List is selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToHandleViewAsDropDown -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_004_ToHandleViewAsDropdown@86be70a]" name="logoutOfApplication" is-config="true" duration-ms="1035" started-at="2022-09-24T09:49:09 IST" finished-at="2022-09-24T09:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_004_ToHandleViewAsDropdown@86be70a]" name="closeTheBrowser" is-config="true" duration-ms="647" started-at="2022-09-24T09:49:10 IST" finished-at="2022-09-24T09:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_004_ToHandleViewAsDropdown -->
+      <class name="computers.TC_006_ToAddAccessriesInToCart">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="openTheBrowser" is-config="true" duration-ms="2096" started-at="2022-09-24T09:47:37 IST" finished-at="2022-09-24T09:47:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="loginToApplication" is-config="true" duration-ms="7260" started-at="2022-09-24T09:47:39 IST" finished-at="2022-09-24T09:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="toAddAccessriesInToCart()[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="toAddAccessriesInToCart" duration-ms="4550" started-at="2022-09-24T09:47:47 IST" finished-at="2022-09-24T09:47:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Computer page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Accessories page displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[click on tcpdone successfully]]>
+            </line>
+            <line>
+              <![CDATA[product is added successfully in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toAddAccessriesInToCart -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="logoutOfApplication" is-config="true" duration-ms="1318" started-at="2022-09-24T09:47:51 IST" finished-at="2022-09-24T09:47:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.TC_006_ToAddAccessriesInToCart@bd8db5a]" name="closeTheBrowser" is-config="true" duration-ms="636" started-at="2022-09-24T09:47:53 IST" finished-at="2022-09-24T09:47:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.TC_006_ToAddAccessriesInToCart -->
+      <class name="computers.SampleTestCase">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:computers.SampleTestCase@480bdb19]" name="openTheBrowser" is-config="true" duration-ms="1345" started-at="2022-09-24T09:49:10 IST" finished-at="2022-09-24T09:49:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:computers.SampleTestCase@480bdb19]" name="loginToApplication" is-config="true" duration-ms="8030" started-at="2022-09-24T09:49:12 IST" finished-at="2022-09-24T09:49:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="sample()[pri:0, instance:computers.SampleTestCase@480bdb19]" name="sample" duration-ms="1143" started-at="2022-09-24T09:49:20 IST" finished-at="2022-09-24T09:49:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:computers.SampleTestCase@480bdb19]" name="logoutOfApplication" is-config="true" duration-ms="1183" started-at="2022-09-24T09:49:21 IST" finished-at="2022-09-24T09:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:computers.SampleTestCase@480bdb19]" name="closeTheBrowser" is-config="true" duration-ms="655" started-at="2022-09-24T09:49:22 IST" finished-at="2022-09-24T09:49:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- computers.SampleTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

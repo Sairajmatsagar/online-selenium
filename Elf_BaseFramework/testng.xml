@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+ 
+    <classes>
+      <class name="computers.TC_006_ToAddAccessriesInToCart"/>
+      <class name="computers.TC_001_ToAddCheapComputerInCart"/>
+      <class name="computers.TC_003_ToHandleDisplayAropDown"/>
+      <class name="computers.TC_002_ToHandleDropdown"/>
+      <class name="computers.TC_005ToAddNotebookInCart"/>
+      <class name="computers.TC_004_ToHandleViewAsDropdown"/>
+      <class name="computers.SampleTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
